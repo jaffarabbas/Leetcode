@@ -1,8 +1,13 @@
 ﻿using System.Linq;
 
-int RomanToInt(string s)
+namespace LeetCode.Questions
 {
-    Dictionary<char, int> roman = new Dictionary<char, int>()
+    class check
+    {
+
+        int RomanToInt(string s)
+        {
+            Dictionary<char, int> roman = new Dictionary<char, int>()
     {
         {'I', 1},
         {'V', 5},
@@ -12,22 +17,24 @@ int RomanToInt(string s)
         {'D', 500},
         {'M', 1000}
     };
-    int count = 0;
-    int prev = 0;
-    for (int i = s.Length - 1; i >= 0; i--)
-    {
-        int value = roman[s[i]];
-        if(value >= prev)
-        {
-            count += value;
+            int count = 0;
+            int prev = 0;
+            for (int i = s.Length - 1; i >= 0; i--)
+            {
+                int value = roman[s[i]];
+                if (value >= prev)
+                {
+                    count += value;
+                }
+                else
+                {
+                    count -= value;
+                }
+                prev = value;
+            }
+            return count;
         }
-        else
-        {
-            count -= value;
-        }
-        prev = value;
-    }
-    return count;
-}
 
-Console.WriteLine(RomanToInt("MCMXCIV"));
+        //Console.WriteLine(RomanToInt("MCMXCIV"));
+    }
+}
