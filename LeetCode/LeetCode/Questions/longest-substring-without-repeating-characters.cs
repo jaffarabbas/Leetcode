@@ -30,9 +30,9 @@ namespace LeetCode.Questions
             }
             return maxLength;
         }
-        public static void Main()
-        {
-            Console.WriteLine(LengthOfLongestSubstring("bbbb"));
-        }
+        //public static void Main()
+        //{
+        //    Console.WriteLine(LengthOfLongestSubstring("bbbb"));
+        //}
     }
 }
