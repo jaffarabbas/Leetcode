@@ -21,10 +21,10 @@ namespace LeetCode.Questions
             return prefix;
         }
 
-        public static void Main()
-        {
-            string[] st = { "flower", "flow", "flight" };
-            Console.WriteLine(LongestCommonPrefix(st));
-        }
+        //public static void Main()
+        //{
+        //    string[] st = { "flower", "flow", "flight" };
+        //    Console.WriteLine(LongestCommonPrefix(st));
+        //}
     }
 }
