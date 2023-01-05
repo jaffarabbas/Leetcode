@@ -21,10 +21,10 @@ namespace LeetCode.Questions
         //    }
         //}
 
-        public static void Main()
-        {
-            string[] st = { "alic3", "bob", "3", "4", "00000" };
-            //Console.WriteLine(MaximumValue(st));
-        }
+        //public static void Main()
+        //{
+        //    string[] st = { "alic3", "bob", "3", "4", "00000" };
+        //    Console.WriteLine(MaximumValue(st));
+        //}
     }
 }
