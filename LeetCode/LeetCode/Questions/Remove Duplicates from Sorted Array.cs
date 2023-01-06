@@ -24,10 +24,10 @@ namespace LeetCode.Questions
             return i + 1;
         }
 
-        public static void Main()
-        {
-            int[] num = { 1, 1, 2 };
-            Console.WriteLine(RemoveDuplicates(num));
-        }
+        //public static void Main()
+        //{
+        //    int[] num = { 1, 1, 2 };
+        //    Console.WriteLine(RemoveDuplicates(num));
+        //}
     }
 }
