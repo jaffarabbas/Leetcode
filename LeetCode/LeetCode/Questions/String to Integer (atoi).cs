@@ -68,10 +68,10 @@ namespace LeetCode.Questions
             return result * sign;
         }
 
-        public static void Main()
-        {
-            string st = "4193 with words";
-            Console.WriteLine(MyAtoi(st));
-        }
+        //public static void Main()
+        //{
+        //    string st = "4193 with words";
+        //    Console.WriteLine(MyAtoi(st));
+        //}
     }
 }
